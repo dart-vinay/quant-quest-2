@@ -2,7 +2,7 @@ from backtester.trading_system_parameters import TradingSystemParameters
 from backtester.features.feature import Feature
 from datetime import timedelta
 from backtester.dataSource.quant_quest_data_source import QuantQuestDataSource
-from backtester.timeRule.quant_quest_time_rule import QuantQuestTimeRule
+# from backtester.timeRule.quant_quest_time_rule import QuantQuestTimeRule
 from backtester.executionSystem.simple_execution_system import SimpleExecutionSystem
 from backtester.orderPlacer.backtesting_order_placer import BacktestingOrderPlacer
 from backtester.trading_system import TradingSystem
